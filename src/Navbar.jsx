@@ -6,9 +6,9 @@ export default function Navbar(){
 <div className="w-full flex gap-7 items-center justify-between p-4 container"> 
     <img src={logoImg} className="w-12 h-13 object-cover"/>
     <nav className=" gap-5 text-white justify-center items-center hidden lg:flex">
-        <link to="/" className="hover:text-[rgb(230,80,105)] transition">HOME</link>
-        <link to="pages"className="hover:text-[rgb(230,80,105)] transition">PAGES</link>
-        <link to="main" className="hover:text-[rgb(230,80,105)] transition">CONTACT US</link>
+        <a href="" className="hover:text-[rgb(230,80,105)] transition">HOME</a>
+        <a href="" className="hover:text-[rgb(230,80,105)] transition">PAGES</a>
+        <a href="" className="hover:text-[rgb(230,80,105)] transition">CONTACT US</a>
     </nav>
         <FaBars className="block lg:hidden text-white ml-auto text-2xl hover:cursor-pointer hover:text-[rgb(230,80,105)]" />
     <div>
